@@ -4,9 +4,9 @@ Use this `vercel` folder as the Vercel project root.
 
 Included runtime files:
 
-- `server.py`: Flask/Vercel Python entrypoint.
+- `api/index.py`: Vercel Python function entrypoint.
 - `app/`: chatbot backend logic.
-- `public/chatbot.html`: web UI served by Vercel.
+- `static/chatbot.html`: web UI served by the chatbot handler.
 - `data/ocr_qa.db` and `data/ocr_qa.sql`: OCR seed data.
 - `demo_terminal_qa.py`: legacy helper module used by the backend.
 - `vercel.json`, `.python-version`, `requirements.txt`: Vercel configuration.
