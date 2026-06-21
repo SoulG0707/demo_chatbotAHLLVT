@@ -1,0 +1,12 @@
+# Core chatbot runtime uses Python standard-library modules.
+# External runtime dependency: Ollama must be installed separately.
+#
+# Memori-main core dependencies from Memori-main/pyproject.toml.
+aiohttp>=3.13.2
+botocore>=1.34.0
+faiss-cpu>=1.7.0
+grpcio>=1.60.0
+numpy>=1.24.0
+protobuf>=4.25.0,<6.0.0
+pyfiglet>=0.8.0
+requests>=2.32.5

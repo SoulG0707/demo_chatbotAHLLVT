@@ -1,0 +1,1 @@
+# No Python package dependency is required for the Vercel handler.

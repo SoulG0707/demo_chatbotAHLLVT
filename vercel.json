@@ -1,0 +1,6 @@
+{
+  "installCommand": "cd deploy-vercel && npm install",
+  "buildCommand": "cd deploy-vercel && npm run build",
+  "outputDirectory": "deploy-vercel/public",
+  "cleanUrls": true
+}
