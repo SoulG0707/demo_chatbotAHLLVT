@@ -52,6 +52,19 @@ Neu `API_BASE_URL` de trong, frontend se goi cung origin `/api/...`. Cach nay ch
 - Build command: `npm run build`
 - Output directory: `public`
 
+Neu deploy tu root repository thay vi chon Root Directory la `deploy-vercel`, root repo da co them:
+
+- `../vercel.json`: ep Vercel install/build trong `deploy-vercel` va output `deploy-vercel/public`.
+- `../package.json`: khai bao project Node toi thieu de tranh Vercel tu nhan repo goc la Flask do co `requirements.txt`.
+
+Trong Vercel Project Settings nen dat:
+
+- Framework Preset: `Other`
+- Root Directory: `deploy-vercel`
+- Install Command: `npm install`
+- Build Command: `npm run build`
+- Output Directory: `public`
+
 ## Canh bao ve backend
 
 Backend hien tai khong nen dua truc tiep vao Vercel static deployment vi:
